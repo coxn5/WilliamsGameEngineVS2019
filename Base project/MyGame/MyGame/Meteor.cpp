@@ -41,7 +41,9 @@ void Meteor::handleCollision(GameObject& otherGameObject)
 {
 	if (otherGameObject.hasTag("laser"))
 	{
-		ExplosionPtr explosion = std::make_shared<Explosion>(sf::Vector2f());
+		sf::Vector2f pos = sprite_.getPosition();
+		
+		ExplosionPtr explosion = std::make_shared<Explosion>(sf::Vector2f(pos.x, pos.y));
 		GAME.getCurrentScene().addGameObject(explosion);
 
 		otherGameObject.makeDead();
