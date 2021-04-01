@@ -11,8 +11,8 @@ Explosion::Explosion(sf::Vector2f pos)
 void Explosion::SetUpExplosionAnimation()
 {
 	std::vector<sf::IntRect>frames;
-	frames.push_back(sf::IntRect(  0, 0, 64, 64)); //frame 1
-	frames.push_back(sf::IntRect( 64, 0, 64, 64)); //frame 2
+	frames.push_back(sf::IntRect(0, 0, 64, 64)); //frame 1
+	frames.push_back(sf::IntRect(64, 0, 64, 64)); //frame 2
 	frames.push_back(sf::IntRect(128, 0, 64, 64)); //frame 3
 	frames.push_back(sf::IntRect(192, 0, 64, 64)); //frame 4
 	frames.push_back(sf::IntRect(256, 0, 64, 64)); //frame 5
@@ -27,6 +27,7 @@ void Explosion::SetUpExplosionAnimation()
 void Explosion::update(sf::Time& elapsed)
 {
 	AnimatedSprite::update(elapsed);
+
 	if (!isPlaying())
 	{
 		makeDead();
