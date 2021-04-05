@@ -105,6 +105,7 @@
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Meteor.h" />
     <ClInclude Include="MeteorSpawner.h" />
+    <ClInclude Include="Score.h" />
     <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +116,12 @@
     <Image Include="..\..\..\Art\laser.png" />
     <Image Include="..\..\..\Art\meteor.png" />
     <Image Include="..\..\..\Art\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\Art\boom.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\Art\Courneuf-Regular.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
