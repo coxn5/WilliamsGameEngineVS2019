@@ -1,7 +1,13 @@
 /*
 App Design Document Ideas
 
-Racing game -Have coins or something to make you go faster - will probably need a scrolling background or a finish line
+Add to the Laser Game 
+	-Add meteors from different directions 
+	-Lose a life when meteor bumps ship 
+	-Display lives left 
+	-More lasers displayed
+	-Change look of ship, meteors etc.
+	
 
-Maze -Would have to be randomly generated and graphics also
+	-Scrolling Background
 */
