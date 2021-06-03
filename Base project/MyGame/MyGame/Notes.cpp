@@ -10,4 +10,12 @@ Add to the Laser Game
 	
 
 	-Scrolling Background
+
+
+
+
+	Add sound when you hit a meteor.
+	Add a start screen?
+	Move from 3 lives to 5.
+	Get to a certain score, lives +1
 */
