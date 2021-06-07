@@ -26,6 +26,8 @@
     <ClCompile Include="Notes.cpp">
       <Filter>Resources</Filter>
     </ClCompile>
+    <ClCompile Include="GameStartScene.cpp" />
+    <ClCompile Include="GameStartMessage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -52,6 +54,8 @@
     <ClInclude Include="Score.h" />
     <ClInclude Include="GameOverMessage.h" />
     <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="GameStartScene.h" />
+    <ClInclude Include="GameStartMessage.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">

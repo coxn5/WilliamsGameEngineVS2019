@@ -3,6 +3,23 @@
 #include "MeteorSpawner.h"
 #include "Score.h"
 #include "GameOverScene.h"
+#include "GameStartScene.h"
+
+int GameScene::getStart()
+{
+	return start_;
+}
+
+void GameScene::decreaseStart()
+{
+	--start_;
+
+	if (start_ == 0)
+	{
+		GameStartScenePtr gameStartScene = std::make_shared<GameStartScene>(start_);
+		GAME.setScene(gameStartScene);
+	}
+}
 
 GameScene::GameScene() 
 {
@@ -25,6 +42,8 @@ void GameScene::increasesScore()
 {
 	++score_; 
 }
+
+
 
 int GameScene::getLives()
 {
