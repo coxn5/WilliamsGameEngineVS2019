@@ -6,7 +6,7 @@ class GameStartMessage : public GameObject
 {
 public:
 	//Creates the GameStartessage instance.
-	GameStartMessage(int start);
+	GameStartMessage();
 
 	//Functions overridden from GameObject:
 	void draw();

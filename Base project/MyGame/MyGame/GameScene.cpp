@@ -5,24 +5,10 @@
 #include "GameOverScene.h"
 #include "GameStartScene.h"
 
-int GameScene::getStart()
-{
-	return start_;
-}
-
-void GameScene::decreaseStart()
-{
-	--start_;
-
-	if (start_ == 0)
-	{
-		GameStartScenePtr gameStartScene = std::make_shared<GameStartScene>(start_);
-		GAME.setScene(gameStartScene);
-	}
-}
-
 GameScene::GameScene() 
 {
+
+
 	ShipPtr ship = std::make_shared<Ship>();
 	addGameObject(ship);
 

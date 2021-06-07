@@ -6,7 +6,7 @@ class GameStartScene : public Scene
 {
 public:
 	//Creates Start Scene.
-	GameStartScene(int start);
+	GameStartScene();
 };
 
 typedef std::shared_ptr<GameStartScene> GameStartScenePtr;

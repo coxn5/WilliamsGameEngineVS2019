@@ -1,8 +1,8 @@
 #include "GameStartScene.h"
 #include "GameStartMessage.h"
 
-GameStartScene::GameStartScene(int start)
+GameStartScene::GameStartScene()
 {
-	GameStartMessagePtr gameStartMessage = std::make_shared<GameStartMessage>(start);
+	GameStartMessagePtr gameStartMessage = std::make_shared<GameStartMessage>();
 	addGameObject(gameStartMessage);
 }

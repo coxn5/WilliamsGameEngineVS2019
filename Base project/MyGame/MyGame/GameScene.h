@@ -4,6 +4,10 @@
 
 class GameScene : public Scene {
 public:
+
+	int getStart();
+	void decreaseStart();
+	
 	// Creates our Scene.
 	GameScene();
 
@@ -19,14 +23,9 @@ public:
 	//Decrease the number of lives
 	void decreaseLives();
 
-	int getStart();
-	void decreaseStart();
-
-
 private:
 	int score_ = 0;
 	int lives_ = 5;
-	int start_ = 1;
 };
 
 typedef std::shared_ptr<GameScene> GameScenePtr;
