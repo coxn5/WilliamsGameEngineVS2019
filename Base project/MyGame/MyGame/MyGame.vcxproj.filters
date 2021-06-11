@@ -29,6 +29,7 @@
     <ClCompile Include="GameStartScene.cpp" />
     <ClCompile Include="GameStartMessage.cpp" />
     <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="PowerUpSpawner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -58,6 +59,7 @@
     <ClInclude Include="GameStartScene.h" />
     <ClInclude Include="GameStartMessage.h" />
     <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="PowerUpSpawner.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
@@ -83,6 +85,9 @@
       <Filter>Resources</Filter>
     </Image>
     <Image Include="..\..\..\Art\explosion-spritesheet.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\..\OneDrive - Riverview School District\9th Grade\Computer Programming\Visual Studio\WilliamsGameEngineVS2019\Art\New Piskel.png">
       <Filter>Resources</Filter>
     </Image>
   </ItemGroup>

@@ -4,6 +4,7 @@
 #include "Score.h"
 #include "GameOverScene.h"
 #include "GameStartScene.h"
+#include "PowerUpSpawner.h"
 
 GameScene::GameScene() 
 {
@@ -17,6 +18,9 @@ GameScene::GameScene()
 
 	ScorePtr score = std::make_shared<Score>(sf::Vector2f(10.0f, 10.0f));
 	addGameObject(score);
+
+	PowerUpSpawnerPtr powerUpSpawner = std::make_shared<PowerUpSpawner>();
+	addGameObject(powerUpSpawner);
 }
 
 int GameScene::getScore()
@@ -29,7 +33,16 @@ void GameScene::increasesScore()
 	++score_; 
 }
 
+int GameScene::getPowerUp()
+{
+	return powerUp_;
+}
 
+void GameScene::increasePowerUp()
+{
+	++powerUp_;
+	
+}
 
 int GameScene::getLives()
 {

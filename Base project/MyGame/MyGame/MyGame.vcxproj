@@ -98,6 +98,7 @@
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="Notes.cpp" />
     <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="PowerUpSpawner.cpp" />
     <ClCompile Include="Score.cpp" />
     <ClCompile Include="Ship.cpp" />
   </ItemGroup>
@@ -117,6 +118,7 @@
     <ClInclude Include="Meteor.h" />
     <ClInclude Include="MeteorSpawner.h" />
     <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="PowerUpSpawner.h" />
     <ClInclude Include="Score.h" />
     <ClInclude Include="Ship.h" />
   </ItemGroup>
@@ -124,6 +126,7 @@
     <None Include="Resources\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\OneDrive - Riverview School District\9th Grade\Computer Programming\Visual Studio\WilliamsGameEngineVS2019\Art\New Piskel.png" />
     <Image Include="..\..\..\Art\explosion-spritesheet.png" />
     <Image Include="..\..\..\Art\laser.png" />
     <Image Include="..\..\..\Art\meteor.png" />
