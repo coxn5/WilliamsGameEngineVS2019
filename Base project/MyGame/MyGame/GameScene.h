@@ -4,9 +4,6 @@
 
 class GameScene : public Scene {
 public:
-
-	int getStart();
-	void decreaseStart();
 	
 	// Creates our Scene.
 	GameScene();

@@ -1,5 +1,5 @@
 /*
-App Design Document Ideas
+App Design Document IDEAS
 
 Add to the Laser Game 
 	-Add meteors from different directions 
@@ -18,4 +18,15 @@ Add to the Laser Game
 	Add a start screen?
 	Move from 3 lives to 5.
 	Get to a certain score, lives +1
+*/
+
+
+/*
+What ACTUALLY Changed
+
+	Start Screen added
+	PowerUp added, adds one life when you hit the powerup
+	Move from 3 lives to 5
+
+
 */

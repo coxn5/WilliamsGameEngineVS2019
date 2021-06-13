@@ -5,7 +5,7 @@ const float SPEED = 0.25f;
 
 PowerUp::PowerUp(sf::Vector2f pos)
 {
-	sprite_.setTexture(GAME.getTexture("Resources/New Piskel.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/explosion01.png"));
 	sprite_.setPosition(pos);
 	assignTag("powerup");
 	setCollisionCheckEnabled(true);

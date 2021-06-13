@@ -41,7 +41,11 @@ int GameScene::getPowerUp()
 void GameScene::increasePowerUp()
 {
 	++powerUp_;
-	
+	if (powerUp_ == 1)
+	{
+		++lives_;
+		--powerUp_;
+	}
 }
 
 int GameScene::getLives()

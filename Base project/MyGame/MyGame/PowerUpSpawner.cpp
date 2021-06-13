@@ -1,7 +1,7 @@
 #include "PowerUpSpawner.h"
 
 //The number of milliseconds between powerups spawns.
-const int SPAWN_DELAY = 10000;
+const int SPAWN_DELAY = 15000;
 
 void PowerUpSpawner::update(sf::Time& elapsed)
 {

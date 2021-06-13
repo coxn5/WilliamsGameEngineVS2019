@@ -10,7 +10,7 @@ GameOverMessage::GameOverMessage(int score)
 	text_.setFillColor(sf::Color::Blue);
 
 	std::stringstream stream;
-	stream << "Good Try\n\nYour Score is: " << score << "\n\nPress Enter to Continue";
+	stream << "Good Try!\n\nYour Score is: " << score << "\n\nPress Enter to Continue";
 	text_.setString(stream.str());
 }
 
