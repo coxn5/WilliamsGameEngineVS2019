@@ -27,6 +27,7 @@ What ACTUALLY Changed
 	Start Screen added
 	PowerUp added, adds one life when you hit the powerup
 	Move from 3 lives to 5
-
+	Displayed the lives left
+	Changed speed from 0.3f to 0.4f
 
 */

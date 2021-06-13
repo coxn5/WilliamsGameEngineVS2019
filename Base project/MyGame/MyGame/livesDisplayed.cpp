@@ -11,3 +11,17 @@ Lives::Lives(sf::Vector2f pos)
 	assignTag("lives");
 }
 
+void Lives::draw()
+{
+	GAME.getRenderWindow().draw(text_);
+}
+
+void Lives::update(sf::Time& elapsed)
+{
+	GameScene& scene = (GameScene&)GAME.getCurrentScene();
+
+	std::stringstream stream;
+	stream << "Lives: " << scene.getLives();
+
+	text_.setString(stream.str());
+}

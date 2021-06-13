@@ -3,7 +3,7 @@
 #include <memory>
 #include "Laser.h"
 
-const float SPEED = 0.3f;
+const float SPEED = 0.4f;
 const int FIRE_DELAY = 200;
 
 Ship::Ship()

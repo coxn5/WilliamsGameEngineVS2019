@@ -5,10 +5,13 @@
 #include "GameOverScene.h"
 #include "GameStartScene.h"
 #include "PowerUpSpawner.h"
+#include "livesDisplayed.h"
 
 GameScene::GameScene() 
 {
 
+	LivesPtr lives = std::make_shared<Lives>(sf::Vector2f(10.0f, 35.0f));
+	addGameObject(lives);
 
 	ShipPtr ship = std::make_shared<Ship>();
 	addGameObject(ship);
